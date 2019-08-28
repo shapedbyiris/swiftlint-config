@@ -1,0 +1,34 @@
+##
+## .gitignore
+##
+
+# macOS user-specific
+.DS_Store
+
+# Build products
+build/
+
+# Third-party libraries
+Pods/
+
+# Xcode-specific
+*.xcodeproj/project.xcworkspace/xcshareddata/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+!default.xcworkspace
+xcuserdata
+
+# AppCode-specific
+.idea/
+
+# vim swap files
+*.swp
+
+# Garbage from merges
+*.orig

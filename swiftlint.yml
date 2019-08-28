@@ -1,0 +1,39 @@
+##
+##  .swiftlint.yml
+##  PartnerApp
+##
+##  Created by Ariel Elkin on 26/06/2019.
+##  Copyright © 2019 IRIS. All rights reserved.
+##
+
+excluded:
+  - Pods
+
+opt_in_rules:
+  - attributes
+  - closure_spacing
+  - conditional_returns_on_newline
+  - contains_over_first_not_nil
+  - empty_count
+  - empty_string
+  - empty_xctest_method
+  - first_where
+  - for_where
+  - force_cast
+  - force_try
+  - let_var_whitespace
+  - lower_acl_than_parent
+  - number_separator
+  - operator_usage_whitespace
+  - overridden_super_call
+  - redundant_nil_coalescing
+  - redundant_type_annotation
+  - sorted_first_last
+  - switch_case_on_newline
+  - unneeded_parentheses_in_closure_argument
+  - vertical_parameter_alignment_on_call
+
+disabled_rules:
+  - todo
+
+cyclomatic_complexity: 15
