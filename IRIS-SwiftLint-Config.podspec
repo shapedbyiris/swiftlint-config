@@ -1,5 +1,5 @@
 ##
-##  swiftlint.yml.podspec
+##  IRIS-SwiftLint-Config.podspec
 ##  IRIS
 ##
 ##  Created by Ariel Elkin on 25/07/2019.
